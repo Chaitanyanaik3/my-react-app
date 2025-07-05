@@ -1,0 +1,169 @@
+/*****Counter CSS********
+.counter-container{
+  font-family: sans-serif,Arial;
+  text-align: center;
+}
+.counter-display{
+  font-size:8rem;
+  margin-top:15%;
+  color:hsl(0, 0%, 30%);
+  // padding-bottom:10px; 
+}
+.counter-button{
+  width:150px;
+  height:50px;
+  font-size:1.5rem;
+  font-weight:bold;
+  border-radius:7px;
+  border:none;
+  margin:5px;
+  background-color: hsl(0, 59%, 60%);
+  cursor:pointer;
+}
+.counter-button:hover{
+  background-color: hsl(0, 59%, 45%);
+}*/
+
+/**********color picker CSS********/
+/* 
+body{
+  font-family:Arial,sans-serif;
+}
+.color-picker-container{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+h1{
+  font-size: 3rem;
+  margin: 50px;
+}
+.color-display{
+  width:250px;
+  height:250px;
+  border:5px solid rgba(128, 128, 128, 0.528);
+  border-radius:24px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom:20px;
+  transition:0.25s ease;
+}
+.color-display p{
+  color:rgba(39, 33, 33, 0.766);
+  font-size: 1.5rem;
+  text-align: center;
+}
+label{
+  font-size:1.4rem;
+  font-weight: bold;
+}
+input[type="color"]{
+  width:75px;
+  height:40px;
+  border-radius:4px;
+  border:3px solid rgba(128, 128, 128, 0.778);
+} */
+
+/************To-Do-List css ************/
+/* body{
+  background-color:rgb(28, 17, 37);
+}
+.to-do-list{
+  font-family:Arial,sans-serif;
+  text-align:center;
+  margin-top:100px;
+}
+h1{
+  font-size:4rem;
+  margin-bottom:50px;
+  color:white;
+}
+button{
+  font-size:2rem;
+  font-weight:bold;
+  padding:14px;
+  border:none;
+  border-radius:5px;
+  color:white;
+  cursor:pointer;
+  transition:background-color 0.37s ease;
+}
+.add-button{
+  background-color:hsla(120, 100%, 25%, 0.795);
+}
+.add-button:hover{
+  background-color:hsla(120, 100%, 15%, 0.795);
+}
+.delete-button{
+  background-color:hsla(352, 89%, 48%, 0.729);
+}
+.delete-button:hover{
+  background-color:hsla(0, 78%, 29%, 0.923);
+}
+.move-button{
+  background-color:hsla(223, 76%, 45%, 0.729);
+}
+.move-button:hover{
+  background-color:hsla(223, 76%, 35%, 0.729);
+}
+
+input[type="text"]{
+  font-size:1.7rem;
+  padding:16px;
+  border:1.5px solid gray;
+  border-radius:4px;
+  color:rgba(0, 0, 0, 0.643);
+}
+ol{
+  list-style-type:none;
+  width:85%;
+  margin:0 auto;
+  margin-top:30px;
+}
+li{
+  font-size:2rem;
+  font-weight:bold;
+  padding:15px;
+  margin-bottom:15px;
+  border:2px solid hsla(0, 0%, 0%, 0.57);
+  border-radius:5px;
+  background-color:hsl(0, 0%, 93%);
+  display:flex;
+  align-items:center;
+}
+.text{
+  flex:1;
+}
+.delete-button, .move-button{
+  padding:8px 12px;
+  margin-left:5px;
+  font-size:1.4rem;
+} */
+
+/***********Digital-clock CSS **********/
+body{
+  background-image:url(assets/bgimg.png);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  margin:0;
+
+  display:flex;
+  justify-content:center;
+  min-height:100vh;
+  align-items:center;
+}
+.clock-container{
+  backdrop-filter:blur(3px);
+  width:100vw;
+  padding:10px;
+}
+.clock{
+  font-size:5rem;
+  color:rgba(185, 177, 177, 0.946);
+  font-family:monospace;
+  text-shadow:3px 3px 5px black;
+  text-align:center;
+}
